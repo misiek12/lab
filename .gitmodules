@@ -1,0 +1,3 @@
+[submodule "seleniumTests"]
+	path = seleniumTests
+	url = https://github.com/misiek12/lab.git

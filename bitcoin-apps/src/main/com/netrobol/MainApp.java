@@ -1,4 +1,4 @@
-package com.netrobol.template;
+package com.netrobol;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -8,10 +8,10 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @SpringBootApplication
-public class TemplateApplication implements CommandLineRunner {
+public class MainApp implements CommandLineRunner {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TemplateApplication.class, args);
+		SpringApplication.run(MainApp.class, args);
 	}
 
 	@Override
